@@ -4,12 +4,11 @@ import 'bootstrap/dist/css/bootstrap.css';
 import { BrowserRouter } from 'react-router-dom';
 import App from './App';
 import UserProvider from './UserProvider';
+import ListarEmpresas2 from './Pages/Admin/ListEmpresas/ListarEmpresas2.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <UserProvider>
-        <BrowserRouter>
-            <App/>
-        </BrowserRouter>
-    </UserProvider>
+    <ListarEmpresas2>
+    
+    </ListarEmpresas2>
 );
