@@ -8,7 +8,9 @@ import ListarEmpresas2 from './Pages/Admin/ListEmpresas/ListarEmpresas2.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <ListarEmpresas2>
-    
-    </ListarEmpresas2>
+    <UserProvider>
+        <BrowserRouter>
+            <App/>
+        </BrowserRouter>
+    </UserProvider>
 );
