@@ -72,11 +72,6 @@ Login                                                                           
     REACT_APP_GEMINI_API_KEY=your_google_gemini_api_key
     ```
 
-## Usage
-
-- Access the frontend at [http://localhost:3000](http://localhost:3000)
-- Access the backend API at [http://localhost:8000](http://localhost:8000)
-
 ## Folder Details
 
 - **backend_iscternship/db_iscternship/**: Django app with models for candidates, companies, reviews, and offers.
